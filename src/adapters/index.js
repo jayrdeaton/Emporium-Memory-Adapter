@@ -1,3 +1,3 @@
 const MemoryAdapter = require('./MemoryAdapter');
 
-module.exports = MemoryAdapter;
+module.exports = { MemoryAdapter };

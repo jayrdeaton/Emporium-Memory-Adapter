@@ -1,4 +1,4 @@
-const { arrayQuery, removeArrayEntry, updateArrayEntry } = require('../../helpers');
+const { arrayQuery, removeArrayEntry, updateArrayEntry } = require('../helpers');
 
 module.exports = class MemoryAdapter {
   constructor(data) {
