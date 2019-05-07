@@ -1,7 +1,7 @@
 const { is, isnt } = require('amprisand'),
-  Emporium = require('../../'),
-  faker = require('faker'),
-  { MemoryAdapter } = Emporium;
+  Emporium = require('@emporium/core');
+  MemoryAdapter = require('../../'),
+  faker = require('faker');
 let Storable, storables;
 
 describe('MemoryAdapter', () => {
